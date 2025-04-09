@@ -1,0 +1,133 @@
+/* Import font from Google font */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  margin:0;
+  background-color:#ffebf7;
+}
+
+.navbar {
+  padding:12px;
+  display:flex;
+  gap:12px;
+  background-color:#ff7fce;
+  justify-content:center;
+}
+
+/* Remove line of the anchor links */
+.navbar a {
+  text-decoration:none;
+  color:white;
+  padding:12px 16px;
+  border-radius:8px;
+  transition:background-color 200ms;
+}
+
+.navbar a:hover {
+  background-color:#ffa4dc;
+}
+
+.profile-group {
+  display:flex;
+  flex-direction:column;
+}
+
+.profile-img {
+  border-radius:9999px;
+  width:200px;
+  height:auto;
+}
+
+.heading {
+  font-size:40px;
+  letter-spacing:-0.92px;
+}
+
+.sub-heading {
+  font-size:28px;
+}
+
+.container {
+  padding:20px 40px;
+  max-width:1000px;
+  margin:40px auto;
+  background-color:white;
+  border-radius:20px;
+}
+
+table {
+  border:1px solid #b0b0b0;
+  /* border-radius:12px; */
+  border-spacing:0;
+  width:100%;
+}
+
+.experience-table td,
+.experience-table th {
+  text-align:left;
+}
+
+.education-table td,
+.education-table th {
+  text-align:center;
+}
+
+td, th {
+  padding:12px 16px;
+}
+
+th {
+  font-size:20px;
+}
+
+table tbody {
+  border-top:1px solid #b0b0b0;
+}
+
+input,
+textarea,
+select {
+  border:1px solid #b0b0b0;
+  font-size:16px;
+  border-radius:8px;
+  padding:8px;
+}
+
+.form-container,
+.input-group {
+  display:flex;
+  flex-direction:column;
+}
+
+.form-container {
+  gap:16px;
+}
+
+.input-group {
+  width:100%;
+  gap:8px;
+}
+
+button {
+  background-color:#ff7fce;
+  border:none;
+  border-radius:9999px;
+  padding:12px;
+  color:white;
+  font-size:20px;
+  transition:background-color 200ms;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color:#ffa4dc;
+}
+
+ul li {
+  font-size:20px;
+  padding:8px 0;
+}

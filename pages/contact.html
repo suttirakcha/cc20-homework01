@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="education.html">Education</a>
+      <a href="work.html">Work Experience</a>
+      <a href="#">Contact Me</a>
+    </nav>
+
+    <main class="container">
+      <h1 class="heading">Contact Me</h1>
+      <h2 class="sub-heading">Enter your info</h2>
+      <form class="form-container" method="GET" action="./contact.html">
+        <div class="input-group">
+          <label>Your Name</label>
+          <input type="text"/>
+        </div>
+        <div class="input-group">
+          <label>Your Email</label>
+          <input type="email"/>
+        </div>
+        <div class="input-group">
+          <label>Gender</label>
+          <select>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="no-prefer">Prefer not to say</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label>Message</label>
+          <textarea>I am a developer...</textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
