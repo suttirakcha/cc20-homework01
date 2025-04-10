@@ -1,6 +1,7 @@
 /* Import font from Google font */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+/* Set the font for the whole page, including tags that already have default font such as <button> */
 * {
   font-family: "Comfortaa", sans-serif;
 }
@@ -31,6 +32,10 @@ body {
   background-color:#ffa4dc;
 }
 
+/* display: flex specifies the group of elements in a horizontal or vertical line 
+  to set the vertical line, add flex-direction: column after setting the display to flex
+  the default of flex-direction is row
+*/
 .profile-group {
   display:flex;
   flex-direction:column;
@@ -59,9 +64,12 @@ body {
   border-radius:20px;
 }
 
-table {
+table, th, td {
   border:1px solid #b0b0b0;
-  border-spacing:0;
+}
+
+table {
+  border-collapse:collapse;
   width:100%;
 }
 
@@ -81,10 +89,6 @@ td, th {
 
 th {
   font-size:20px;
-}
-
-table tbody {
-  border-top:1px solid #b0b0b0;
 }
 
 input,
@@ -115,13 +119,14 @@ button {
   background-color:#ff7fce;
   border:none;
   border-radius:9999px;
-  padding:12px;
+  padding:12px 16px;
   color:white;
-  font-size:20px;
+  font-size:16px;
   transition:background-color 200ms;
   cursor:pointer;
 }
 
+/* pseudo-selector :hover is used when users hovered the elements */
 button:hover {
   background-color:#ffa4dc;
 }
