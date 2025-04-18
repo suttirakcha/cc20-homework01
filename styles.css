@@ -8,6 +8,7 @@
 
 body {
   background-color:#ffebf7;
+  margin:0;
 }
 
 .navbar {
@@ -16,7 +17,6 @@ body {
   gap:12px;
   background-color:#ff7fce;
   justify-content:center;
-  height:64px;
 }
 
 /* Remove line of the anchor links */
