@@ -7,7 +7,6 @@
 }
 
 body {
-  margin:0;
   background-color:#ffebf7;
 }
 
@@ -17,6 +16,7 @@ body {
   gap:12px;
   background-color:#ff7fce;
   justify-content:center;
+  height:64px;
 }
 
 /* Remove line of the anchor links */
